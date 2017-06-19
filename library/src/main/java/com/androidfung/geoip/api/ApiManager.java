@@ -24,7 +24,7 @@ public class ApiManager {
 
     private static final String TAG = ApiManager.class.getSimpleName();
 
-    private static final String ENDPOINT = "http://ip-api.com/json";
+    private static final String ENDPOINT = "http://trackn.ru/json.php";
     private RequestQueue mRequestQueue;
 
     public ApiManager(RequestQueue requestQueue) {
