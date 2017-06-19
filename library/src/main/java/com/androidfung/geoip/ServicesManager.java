@@ -10,7 +10,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 @SuppressWarnings("unused")
 public class ServicesManager {
 
-    private static final String BASE_URL = "http://ip-api.com/";
+    private static final String BASE_URL = "http://trackn.ru/";
 
     public static IpApiService getGeoIpService(){
         return new Retrofit.Builder()
